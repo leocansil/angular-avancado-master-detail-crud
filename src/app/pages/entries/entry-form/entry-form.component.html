@@ -82,7 +82,7 @@
 
                     </p-calendar>
                     <div class="text-danger" *ngIf="entryForm.get('date').invalid && entryForm.get('date').touched">
-                        <div *ngIf="entryForm.get('amount').errors.required">dado obrigatório</div>
+                        <div *ngIf="entryForm.get('date').errors.required">dado obrigatório</div>
                     </div>
                 </div>
             </div>
