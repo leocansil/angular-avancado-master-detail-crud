@@ -9,7 +9,6 @@ import { EntriesModule } from "../pages/entries/entries.module";
 
 import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
 import { InMemoryDatabase } from "../in-memory-database";
-import { CategoryService } from '../pages/categories/shared/category.service';
 
 @NgModule({
   declarations: [],

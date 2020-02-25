@@ -132,3 +132,4 @@ export class CategoryFormComponent implements OnInit, AfterContentChecked {
     }
   }
 }
+ 
