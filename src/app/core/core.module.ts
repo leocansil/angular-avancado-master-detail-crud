@@ -7,6 +7,7 @@ import { RouterModule } from "@angular/router";
 
 import { CategoriesModule } from "../pages/categories/categories.module";
 import { EntriesModule } from "../pages/entries/entries.module";
+import { ReportsModule } from "../pages/reports/reports.module";
 
 import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
 import { InMemoryDatabase } from "../in-memory-database";
@@ -25,6 +26,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
     CategoriesModule,
     EntriesModule,
+    ReportsModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDatabase)
   ],
   exports: [
@@ -33,6 +35,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HttpClientModule,
     CategoriesModule,
     EntriesModule,
+    ReportsModule,
     NavbarComponent
   ]
 })
