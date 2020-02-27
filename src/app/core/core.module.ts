@@ -24,18 +24,18 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HttpClientModule,
     RouterModule,
 
-    CategoriesModule,
-    EntriesModule,
-    ReportsModule,
+    // ReportsModule,
+    // CategoriesModule,
+    // EntriesModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDatabase)
   ],
   exports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    CategoriesModule,
-    EntriesModule,
-    ReportsModule,
+    // ReportsModule,
+    // CategoriesModule,
+    // EntriesModule,
     NavbarComponent
   ]
 })
